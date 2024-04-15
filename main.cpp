@@ -66,5 +66,7 @@ int main(int argc, char *argv[]){
         
     }
 
+    cout<<"calculadora usada "<<c.getTimesUsed()<<" vezes\n";
+
     return 0;
 }

@@ -41,3 +41,7 @@ double Calculadora::pot(double n1, double n2) {
 
     return acc;
 }
+
+int Calculadora::getTimesUsed() {
+    return _times_used;
+}

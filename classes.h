@@ -11,6 +11,7 @@ class Calculadora {
         double divisao(double n1, double n2);
         double subtracao(double n1, double n2);
         double pot(double n1, double n2);
+        int getTimesUsed();
     private:
         int _times_used = 0;
 };
